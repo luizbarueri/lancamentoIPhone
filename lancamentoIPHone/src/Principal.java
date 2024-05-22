@@ -6,7 +6,10 @@ public class Principal {
         System.out.println(iphone);
         System.out.println("************************************");
 
-        iphone.tocarMusica();
+        //iphone.tocarMusica();
+        IMUsicas reproduzir = (cantor, separador, musica) -> cantor.concat(separador + musica);
+        String result = reproduzir.album("Luiz Gonzaga", " - " ,"Luar do sertão");
+        reproduzir.tocarMusica((result));
         iphone.fazChamada();
         iphone.recebeChamada();
         iphone.conectarInternet();;

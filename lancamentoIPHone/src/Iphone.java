@@ -29,9 +29,9 @@ public class Iphone {
     public  void recebeChamada() {
         System.out.println("recebendo ligação de...");
     }
-    public void tocarMusica() {
-        System.out.println("Tocando musica...");
-    }
+//    public void tocarMusica() {
+//        System.out.println("Tocando musica...");
+//    }
     public void conectarInternet() {
         System.out.println("acessando a internet...");
     }
